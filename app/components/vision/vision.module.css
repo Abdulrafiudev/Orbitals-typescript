@@ -1,0 +1,30 @@
+.vision {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  height: 30rem;
+  background-image: url(../../../public/Rectangle\ 29.png);
+  background-position: top left;
+  background-color: var(--background-color);
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.vision__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  align-items: center;
+
+  width: 100%;
+}
+.vision__container h1 {
+  font-weight: 600;
+}
+.vision__container p {
+  max-width: 70%;
+  line-height: 30px;
+}
