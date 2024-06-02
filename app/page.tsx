@@ -3,6 +3,7 @@ import styles from "./page.module.css"
 import Header from "./components/header/page"
 import Hero from "./components/hero/page"
 import Vision from "./components/vision/page"
+import Team from "./components/Team/page"
 
 export function Home() {
   return (
@@ -10,6 +11,7 @@ export function Home() {
       <Header />
       <Hero />
       <Vision />
+      <Team />
     </>
   )
 }

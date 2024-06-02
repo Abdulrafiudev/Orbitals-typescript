@@ -1,0 +1,71 @@
+.team {
+  display: flex;
+
+  gap: 30px;
+  width: 100%;
+  margin-top: 100px;
+  background-image: url(../../../public/Rectangle\ -29.png);
+  background-position: right top;
+  background-color: var(--background-color);
+
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.team_container {
+  height: 100%;
+  width: 90%;
+  padding-top: 5rem;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team_container h1 {
+  font-weight: 600;
+}
+.team_container__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+}
+.team_container__grid___div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  height: fit-content;
+  width: fit-content;
+}
+.team_container__grid___div img {
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+.team_container__grid___div____ceo {
+  display: flex;
+  gap: 10px;
+  height: 30px;
+  align-items: center;
+
+  margin-bottom: 5px;
+}
+.team_container__grid___div____ceo img {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.team_container__grid___div____ceo span {
+  white-space: nowrap;
+}
+.team_container__grid___div p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.team_container__grid___div span,
+.team_container__grid___div a {
+  font-weight: 300;
+  font-size: 14px;
+}
